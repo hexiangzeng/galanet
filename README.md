@@ -1,1 +1,1 @@
-# GLANet
+# galaNet
