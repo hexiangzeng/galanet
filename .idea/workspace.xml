@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16b5a182-2341-40c4-b881-f3bc73395b40" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/galaNet$configs.coverage" NAME="configs Coverage Results" MODIFIED="1589858130651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/galaNet$augment_data.coverage" NAME="augment_data Coverage Results" MODIFIED="1592737016403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/galaNet$run_preprocessing.coverage" NAME="run_preprocessing Coverage Results" MODIFIED="1590239301245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/galaNet$visulize_case.coverage" NAME="visulize_case Coverage Results" MODIFIED="1595168003226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inference" />
+    <SUITE FILE_PATH="coverage/galaNet$metrics.coverage" NAME="metrics Coverage Results" MODIFIED="1591547214442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+    <SUITE FILE_PATH="coverage/galaNet$softmax_helper.coverage" NAME="softmax_helper Coverage Results" MODIFIED="1592277146844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utilites" />
+    <SUITE FILE_PATH="coverage/galaNet$PDVNet.coverage" NAME="PDVNet Coverage Results" MODIFIED="1593352549479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+    <SUITE FILE_PATH="coverage/galaNet$APLSNet.coverage" NAME="APLSNet Coverage Results" MODIFIED="1591548922736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+    <SUITE FILE_PATH="coverage/galaNet$tensorboardX_demo.coverage" NAME="tensorboardX_demo Coverage Results" MODIFIED="1590580067746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utilites" />
+    <SUITE FILE_PATH="coverage/galaNet$utils.coverage" NAME="utils Coverage Results" MODIFIED="1591100486162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utilites" />
+    <SUITE FILE_PATH="coverage/galaNet$checkpoint_io.coverage" NAME="checkpoint_io Coverage Results" MODIFIED="1591101191561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+    <SUITE FILE_PATH="coverage/galaNet$visulize.coverage" NAME="visulize Coverage Results" MODIFIED="1591099581777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utilites" />
+    <SUITE FILE_PATH="coverage/galaNet$lungdataset.coverage" NAME="lungdataset Coverage Results" MODIFIED="1594607504216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/galaNet$ResNeXt.coverage" NAME="ResNeXt Coverage Results" MODIFIED="1592799078479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+    <SUITE FILE_PATH="coverage/galaNet$run_training.coverage" NAME="run_training Coverage Results" MODIFIED="1596023822265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/galaNet$Unet.coverage" NAME="Unet Coverage Results" MODIFIED="1590584467186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+    <SUITE FILE_PATH="coverage/galaNet$logger_torch.coverage" NAME="logger_torch Coverage Results" MODIFIED="1592878634208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger" />
+    <SUITE FILE_PATH="coverage/galaNet$GALANet.coverage" NAME="GALANet Coverage Results" MODIFIED="1594109657258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+    <SUITE FILE_PATH="coverage/galaNet$spliter.coverage" NAME="spliter Coverage Results" MODIFIED="1589898331431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/galaNet$tensor_utilites.coverage" NAME="tensor_utilites Coverage Results" MODIFIED="1592278641644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utilites" />
+    <SUITE FILE_PATH="coverage/galaNet$run_testing.coverage" NAME="run_testing Coverage Results" MODIFIED="1595225577381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/galaNet$cropper.coverage" NAME="cropper Coverage Results" MODIFIED="1590158437330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/galaNet$pytest_in_ResNeXt_py.coverage" NAME="pytest in ResNeXt.py Coverage Results" MODIFIED="1592798095678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_architecture" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <element signature="e#75#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="392" column="28" lean-forward="true" selection-start-line="392" selection-start-column="28" selection-end-line="392" selection-end-column="28" />
+              <folding>
+                <element signature="e#24#73#1" />
+                <element signature="e#1214#2416#0" />
+                <element signature="e#1224#1418#0" />
+                <element signature="e#1440#1555#0" />
+                <element signature="e#1575#1736#0" />
+                <element signature="e#1758#1884#0" />
+                <element signature="e#1906#2047#0" />
+                <element signature="e#2069#2221#0" />
+                <element signature="e#2244#2415#0" />
+                <element signature="e#2559#5292#0" />
+                <element signature="e#2699#4196#0" />
+                <element signature="e#2748#4196#0" />
+                <element signature="e#2927#3026#0" />
+                <element signature="e#3576#3805#0" />
+                <element signature="e#3672#3800#0" />
+                <element signature="e#4372#4515#0" />
+                <element signature="e#4575#5062#0" />
+                <element signature="e#5085#5179#0" />
+                <element signature="e#5381#7425#0" />
+                <element signature="e#5471#7351#0" />
+                <element signature="e#5963#6057#0" />
+                <element signature="e#6717#7116#0" />
+                <element signature="e#6823#6941#0" />
+                <element signature="e#8057#12438#0" />
+                <element signature="e#8420#9105#0" />
+                <element signature="e#9472#11302#0" />
+                <element signature="e#9790#11183#0" />
+                <element signature="e#10704#10837#0" />
+                <element signature="e#10870#11069#0" />
+                <element signature="e#12134#12183#0" />
+                <element signature="e#12659#12794#0" />
+                <element signature="e#12977#13003#0" />
+                <element signature="e#15371#15503#0" />
+                <element signature="e#15923#16030#0" />
+                <element signature="e#16175#16488#0" />
+                <element signature="e#16519#16831#0" />
+                <element signature="e#16867#17177#0" />
+                <element signature="e#17213#17457#0" />
+                <element signature="e#16810#16990#0" />
+                <element signature="e#17009#17191#0" />
+                <element signature="e#18200#18251#0" />
+                <element signature="e#18400#19255#0" />
+                <element signature="e#18408#19195#0" />
+                <element signature="e#19364#21004#0" />
+                <element signature="e#19445#19629#0" />
+                <element signature="e#19702#20899#0" />
+                <element signature="e#20514#20668#0" />
+                <element signature="e#20716#20899#0" />
+                <element signature="e#22313#22397#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inference/postprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#24#73#1" />
+                <element signature="e#74#92#0" expanded="true" />
+                <element signature="e#478#1290#0" />
+                <element signature="e#1509#3700#0" />
+                <element signature="e#1509#1601#1" />
+                <element signature="e#1644#1749#0" />
+                <element signature="e#1901#3655#0" />
+                <element signature="e#1946#2124#0" />
+                <element signature="e#2563#3655#0" />
+                <element signature="e#2563#2667#0" />
+                <element signature="e#2920#3655#0" />
+                <element signature="e#3050#3655#0" />
+                <element signature="e#3362#3655#0" />
+                <element signature="e#4064#15397#0" />
+                <element signature="e#4121#4252#0" />
+                <element signature="e#4674#4810#0" />
+                <element signature="e#5810#7257#0" />
+                <element signature="e#5974#6288#0" />
+                <element signature="e#6488#7091#0" />
+                <element signature="e#6559#6804#0" />
+                <element signature="e#6605#6804#0" />
+                <element signature="e#6852#7091#0" />
+                <element signature="e#6900#7091#0" />
+                <element signature="e#7552#7954#0" />
+                <element signature="e#8261#8373#0" />
+                <element signature="e#8663#8881#0" />
+                <element signature="e#8943#9078#0" />
+                <element signature="e#9366#10051#0" />
+                <element signature="e#9366#9402#0" />
+                <element signature="e#9656#10051#0" />
+                <element signature="e#10070#10121#0" />
+                <element signature="e#10156#13668#0" />
+                <element signature="e#10156#10271#0" />
+                <element signature="e#10511#11886#0" />
+                <element signature="e#10622#10835#0" />
+                <element signature="e#11059#11710#0" />
+                <element signature="e#11138#11399#0" />
+                <element signature="e#11188#11399#0" />
+                <element signature="e#11455#11710#0" />
+                <element signature="e#11507#11710#0" />
+                <element signature="e#12073#12369#0" />
+                <element signature="e#13006#13668#0" />
+                <element signature="e#13330#13668#0" />
+                <element signature="e#14289#14778#0" />
+                <element signature="e#14549#14671#0" />
+                <element signature="e#14550#14669#0" />
+                <element signature="e#14706#14777#0" />
+                <element signature="e#15259#15338#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inference/predict_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+              <folding>
+                <element signature="e#423#547#0" />
+                <element signature="e#583#655#0" />
+                <element signature="e#1248#1439#0" />
+                <element signature="e#1267#1418#0" />
+                <element signature="e#2800#9712#0" />
+                <element signature="e#2979#9627#0" />
+                <element signature="e#3415#3488#0" />
+                <element signature="e#3654#4759#0" />
+                <element signature="e#3855#4654#0" />
+                <element signature="e#4411#4509#0" />
+                <element signature="e#4689#4759#0" />
+                <element signature="e#5840#6767#0" />
+                <element signature="e#5896#6002#0" />
+                <element signature="e#6794#7051#0" />
+                <element signature="e#8999#9318#0" />
+                <element signature="e#9354#9627#0" />
+                <element signature="e#9913#12402#0" />
+                <element signature="e#9943#12377#0" />
+                <element signature="e#10307#10370#0" />
+                <element signature="e#10462#12308#0" />
+                <element signature="e#10506#12308#0" />
+                <element signature="e#10537#10633#0" />
+                <element signature="e#10705#10833#0" />
+                <element signature="e#10905#11033#0" />
+                <element signature="e#11128#11288#0" />
+                <element signature="e#11360#11488#0" />
+                <element signature="e#11583#11743#0" />
+                <element signature="e#11838#11998#0" />
+                <element signature="e#12116#12308#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utilites/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="853">
+              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+              <folding>
+                <element signature="e#75#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/lungdataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="e#24#73#1" />
+                <element signature="e#75#88#0" expanded="true" />
+                <element signature="e#678#3773#0" />
+                <element signature="e#2247#2547#0" />
+                <element signature="e#3294#3525#0" />
+                <element signature="e#3870#4039#0" />
+                <element signature="e#4088#4812#0" />
+                <element signature="e#4841#4893#0" />
+                <element signature="e#5091#6379#0" />
+                <element signature="e#5586#6007#0" />
+                <element signature="e#6413#7007#0" />
+                <element signature="e#8210#13665#0" />
+                <element signature="e#8719#8793#0" />
+                <element signature="e#9313#9610#0" />
+                <element signature="e#9313#9415#0" />
+                <element signature="e#9620#9721#0" />
+                <element signature="e#10267#10375#0" />
+                <element signature="e#10475#10636#0" />
+                <element signature="e#10663#11990#0" />
+                <element signature="e#11037#11223#0" />
+                <element signature="e#11436#11786#0" />
+                <element signature="e#11821#11990#0" />
+                <element signature="e#12725#13061#0" />
+                <element signature="e#13179#13521#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/augment_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="263" column="52" selection-start-line="263" selection-start-column="52" selection-end-line="263" selection-end-column="52" />
+              <folding>
+                <element signature="e#24#73#1" />
+                <element signature="e#75#93#0" expanded="true" />
+                <element signature="e#11869#15705#0" />
+                <element signature="e#24157#24208#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network_architecture/checkpoint_io.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1917">
+              <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+              <folding>
+                <element signature="e#24#73#1" />
+                <element signature="e#75#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2214">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+              <folding>
+                <element signature="e#150#159#0" expanded="true" />
+                <element signature="e#701#1971#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>out</find>
+      <find>DenseBlock</find>
+      <find>_DenseLayer</find>
+      <find>DenseLayer</find>
+      <find>ConvBlock</find>
+      <find>metric</find>
+      <find>type</find>
+      <find>preprocessed_data_identifer</find>
+      <find>batch_idx</find>
+      <find>preprocessed_output_dir</find>
+      <find>net_intputs_folder</find>
+      <find>net_inputs_dir</find>
+      <find>LungDataset</find>
+      <find>preprocessed_dir</find>
+      <find>all_data</find>
+      <find>fold</find>
+      <find>data</find>
+      <find>train_dataset</find>
+      <find>dataset_info</find>
+      <find>cases_list</find>
+      <find>dataset</find>
+      <find>mean</find>
+      <find>size</find>
+      <find>size_after_cropping</find>
+      <find>vol_rgb</find>
+      <find>features_num_lists</find>
+      <find>network</find>
+      <find>args</find>
+      <find>print_to_log_file</find>
+      <find>patch_size</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>patch</replace>
+      <replace>num_classes</replace>
+      <replace>data</replace>
+      <replace>get_device(net)</replace>
+      <replace>net</replace>
+      <replace>net`</replace>
+      <replace>flip_tensor</replace>
+      <replace>softmax_torch</replace>
+      <replace>prediction_nifti</replace>
+      <replace>pred</replace>
+      <replace>prediction</replace>
+      <replace>raw_output_folder</replace>
+      <replace>case_id</replace>
+      <replace>patch_size</replace>
+      <replace>30.</replace>
+      <replace>15.</replace>
+      <replace>data_sample</replace>
+      <replace>seg_sample</replace>
+      <replace>final_patch_size</replace>
+      <replace>self.basic_patch_size</replace>
+      <replace>shortcut_tensor</replace>
+      <replace>image</replace>
+      <replace>y</replace>
+      <replace>features_num_lists</replace>
+      <replace>num_input_features</replace>
+      <replace>base_features</replace>
+      <replace>DenseLayer</replace>
+      <replace>cases_lists</replace>
+      <replace>dataset_info</replace>
+      <replace>vol_greyscale</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/utils/tensorboard/_pytorch_graph.py" />
+        <option value="$PROJECT_DIR$/network_architecture/initialize_network.py" />
+        <option value="$PROJECT_DIR$/utilites/tensorboardX_demo.py" />
+        <option value="$PROJECT_DIR$/network_architecture/galaNet.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/utilites/visulize.py" />
+        <option value="$PROJECT_DIR$/network_architecture/model_save_load.py" />
+        <option value="$PROJECT_DIR$/network_architecture/APLS_Net.py" />
+        <option value="$PROJECT_DIR$/inference/predict_preprocessed_data.py" />
+        <option value="$PROJECT_DIR$/inference/utils.py" />
+        <option value="$PROJECT_DIR$/utilites/to_torch.py" />
+        <option value="$PROJECT_DIR$/utilites/logger_torch.py" />
+        <option value="$PROJECT_DIR$/utilites/initialize.py" />
+        <option value="$PROJECT_DIR$/utilites/softmax_nd.py" />
+        <option value="$PROJECT_DIR$/utilites/softmax_helper.py" />
+        <option value="$PROJECT_DIR$/utilites/tensor_utilites.py" />
+        <option value="$PROJECT_DIR$/preprocessing/Preprocessor.py" />
+        <option value="$PROJECT_DIR$/inference/__init.py" />
+        <option value="$PROJECT_DIR$/inference/postprocessing.py" />
+        <option value="$PROJECT_DIR$/inference/__init__.py" />
+        <option value="$PROJECT_DIR$/preprocessing/run_preprocessing.py" />
+        <option value="$PROJECT_DIR$/dataset/augmentation_data.py" />
+        <option value="$PROJECT_DIR$/dataset/loading_dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/augment_data.py" />
+        <option value="$PROJECT_DIR$/network_architecture/update_lr.py" />
+        <option value="$PROJECT_DIR$/network_architecture/ResNeXt.py" />
+        <option value="$PROJECT_DIR$/inference/evaluator.py" />
+        <option value="$PROJECT_DIR$/network_architecture/GALANetV2.py" />
+        <option value="$PROJECT_DIR$/network_architecture/APLSNet.py" />
+        <option value="$PROJECT_DIR$/logger/logger_torch.py" />
+        <option value="$PROJECT_DIR$/utilites/split_trainval.py" />
+        <option value="$PROJECT_DIR$/dataset/__init__.py" />
+        <option value="$PROJECT_DIR$/network_architecture/metrics.py" />
+        <option value="$PROJECT_DIR$/preprocessing/DatasetAnalyzer.py" />
+        <option value="$PROJECT_DIR$/inference/save_segmentation.py" />
+        <option value="$PROJECT_DIR$/preprocessing/cropper.py" />
+        <option value="$PROJECT_DIR$/network_architecture/__init__.py" />
+        <option value="$PROJECT_DIR$/inference/predict_sample.py" />
+        <option value="$PROJECT_DIR$/inference/visulize_case.py" />
+        <option value="$PROJECT_DIR$/preprocessing/main_run_preprocessing.py" />
+        <option value="$PROJECT_DIR$/run_testing.py" />
+        <option value="$PROJECT_DIR$/configs.py" />
+        <option value="$PROJECT_DIR$/utilites/utils.py" />
+        <option value="$PROJECT_DIR$/network_architecture/GALANet.py" />
+        <option value="$PROJECT_DIR$/network_architecture/Unet.py" />
+        <option value="$PROJECT_DIR$/network_architecture/checkpoint_io.py" />
+        <option value="$PROJECT_DIR$/network_architecture/PDVNet.py" />
+        <option value="$PROJECT_DIR$/paths.py" />
+        <option value="$PROJECT_DIR$/dataset/lungdataset.py" />
+        <option value="$PROJECT_DIR$/inference/predict_data.py" />
+        <option value="$PROJECT_DIR$/run_training.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1998" />
+    <option name="y" value="-4" />
+    <option name="width" value="1853" />
+    <option name="height" value="1076" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="galaNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaNet" type="462c0819:PsiDirectoryNode" />
+              <item name="inference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaNet" type="462c0819:PsiDirectoryNode" />
+              <item name="network_architecture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaNet" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GALAUnet" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inference" />
+      <recent name="$PROJECT_DIR$/logger" />
+      <recent name="$PROJECT_DIR$/utilites" />
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/trainer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_training">
+    <configuration name="GALANet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="galaNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network_architecture" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network_architecture/GALANet.py" />
+      <option name="PARAMETERS" value="GALANet" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lungdataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="galaNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/lungdataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="galaNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="/media/zhx/My Passport/lung_lobe_seg/galaNet_raw_data/splited_data" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="galaNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_training.py" />
+      <option name="PARAMETERS" value="PDVNet --fold 1 --metrics dc" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visulize_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="galaNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inference" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inference/visulize_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run_training" />
+      <item itemvalue="Python.lungdataset" />
+      <item itemvalue="Python.GALANet" />
+      <item itemvalue="Python.visulize_case" />
+      <item itemvalue="Python.run_testing" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_training" />
+        <item itemvalue="Python.run_testing" />
+        <item itemvalue="Python.visulize_case" />
+        <item itemvalue="Python.lungdataset" />
+        <item itemvalue="Python.GALANet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16b5a182-2341-40c4-b881-f3bc73395b40" name="Default Changelist" comment="" />
+      <created>1589615384388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589615384388</updated>
+      <workItem from="1589615385876" duration="113515000" />
+      <workItem from="1590141505063" duration="68237000" />
+      <workItem from="1590397133832" duration="29349000" />
+      <workItem from="1590475417608" duration="624000" />
+      <workItem from="1590476416929" duration="908000" />
+      <workItem from="1590479093195" duration="988000" />
+      <workItem from="1590481803756" duration="201192000" />
+      <workItem from="1591879912628" duration="1440000" />
+      <workItem from="1592121943903" duration="37551000" />
+      <workItem from="1592309945245" duration="6267000" />
+      <workItem from="1592317743958" duration="4002000" />
+      <workItem from="1592363215405" duration="5902000" />
+      <workItem from="1592401659515" duration="217902000" />
+      <workItem from="1593239917723" duration="3754000" />
+      <workItem from="1593338305113" duration="376000" />
+      <workItem from="1593340082946" duration="5601000" />
+      <workItem from="1593351495444" duration="20086000" />
+      <workItem from="1593688875001" duration="597000" />
+      <workItem from="1593758000518" duration="75447000" />
+      <workItem from="1594955633601" duration="56807000" />
+      <workItem from="1595901234293" duration="2200000" />
+      <workItem from="1595913310585" duration="31024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_ResNeXt_py - 2020.06.22 at 11h 54m 45s.xml">
+      <configuration name="pytest in ResNeXt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_ResNeXt_py - 2020.06.22 at 11h 54m 57s.xml">
+      <configuration name="pytest in ResNeXt.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="883769000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12769486" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2367049" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991708" weight="0.4358707" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.498618" weight="0.35036495" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.34202296" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295099" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50193477" side_tool="true" weight="0.31491137" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49806523" weight="0.32012513" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32946378" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49375" weight="0.27915975" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32946378" />
+      <window_info anchor="right" x="0" y="0" width="413" height="884" id="Documentation" order="6" sideWeight="0.50625" side_tool="true" weight="0.25262576" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/spliter.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/spliter.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>278</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>279</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>280</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>276</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/cropper.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/Preprocessor.py</url>
+          <line>243</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/Preprocessor.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/Preprocessor.py</url>
+          <line>245</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/Preprocessor.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/Preprocessor.py</url>
+          <line>215</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/Preprocessor.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/split_trainval.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/split_trainval.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/split_trainval.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/utils.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/checkpoint_io.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/checkpoint_io.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/metrics.py</url>
+          <line>650</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/metrics.py</url>
+          <line>652</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/metrics.py</url>
+          <line>653</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/metrics.py</url>
+          <line>654</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/softmax_helper.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/softmax_helper.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/softmax_helper.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilites/tensor_utilites.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/save_segmentation.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/save_segmentation.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/save_segmentation.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/save_segmentation.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/postprocessing.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/postprocessing.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/augment_data.py</url>
+          <line>544</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/augment_data.py</url>
+          <line>543</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/GALANet.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/ResNeXt.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/ResNeXt.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/PDVNet.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/PDVNet.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/PDVNet.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>373</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/lungdataset.py</url>
+          <line>337</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/lungdataset.py</url>
+          <line>335</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/lungdataset.py</url>
+          <line>355</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/lungdataset.py</url>
+          <line>356</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/lungdataset.py</url>
+          <line>309</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/lungdataset.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/lungdataset.py</url>
+          <line>358</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/save_segmentation.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/visulize_case.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/visulize_case.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/visulize_case.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inference/visulize_case.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_testing.py</url>
+          <line>200</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_testing.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/metrics.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network_architecture/metrics.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="x.shape" language="Python" />
+        <watch expression="out1.shape" language="Python" />
+        <watch expression="out2.shape" language="Python" />
+        <watch expression="out3.shape" language="Python" />
+        <watch expression="output.shape" language="Python" />
+        <watch expression="data.shape" language="Python" />
+        <watch expression="target.shape" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>target.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>output.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>output[0].shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>final_out3.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>final_out2.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>final_out1.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>out3.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>out2.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>out1.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/nn/utils/clip_grad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1238486316/2091827845/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="522" selection-start-line="522" selection-end-line="522" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/GALANetV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#75#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/800572053/41203095/batchgenerators/utilities/file_and_folder_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1245829171/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="721" column="6" selection-start-line="721" selection-start-column="6" selection-end-line="721" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/utils/data/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#639#856#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/800572053/1568759283/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1153" selection-start-line="1153" selection-end-line="1153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/800572053/1568759283/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/800572053/41203095/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="492" selection-start-line="492" selection-end-line="492" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/800572053/1568759283/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="643" selection-start-line="643" selection-end-line="643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger/logger_torch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="144" column="26" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+          <folding>
+            <element signature="e#9973#10026#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/Preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="269" column="72" lean-forward="true" selection-start-line="269" selection-start-column="72" selection-end-line="269" selection-end-column="72" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#508#519#0" />
+            <element signature="e#1051#1120#0" />
+            <element signature="e#2096#5918#0" />
+            <element signature="e#2257#2333#0" />
+            <element signature="e#6213#7800#0" />
+            <element signature="e#8011#9093#0" />
+            <element signature="e#13438#13537#0" />
+            <element signature="e#13578#13693#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/DatasetAnalyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="200" column="20" lean-forward="true" selection-start-line="200" selection-start-column="20" selection-end-line="200" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#437#576#0" />
+            <element signature="e#667#1182#0" />
+            <element signature="e#827#1007#0" />
+            <element signature="e#1306#2383#0" />
+            <element signature="e#1306#1646#1" />
+            <element signature="e#2458#4090#0" />
+            <element signature="e#4129#4242#0" />
+            <element signature="e#4289#5535#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/loading_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#502#671#0" />
+            <element signature="e#502#511#0" />
+            <element signature="e#704#938#0" />
+            <element signature="e#744#780#0" />
+            <element signature="e#870#938#0" />
+            <element signature="e#968#1168#0" />
+            <element signature="e#1008#1044#0" />
+            <element signature="e#1244#1411#0" />
+            <element signature="e#1485#1649#0" />
+            <element signature="e#1680#1906#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference/save_segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="132" column="35" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+          <folding>
+            <element signature="e#75#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference/evaluator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#452#8982#0" />
+            <element signature="e#452#727#1" />
+            <element signature="e#750#1111#0" />
+            <element signature="e#1144#1289#0" />
+            <element signature="e#1535#2505#0" />
+            <element signature="e#1814#1883#0" />
+            <element signature="e#1910#1966#0" />
+            <element signature="e#2052#2139#0" />
+            <element signature="e#2166#2240#0" />
+            <element signature="e#2413#2505#0" />
+            <element signature="e#2557#2632#0" />
+            <element signature="e#2682#2754#0" />
+            <element signature="e#2798#3480#0" />
+            <element signature="e#2798#2991#1" />
+            <element signature="e#3522#3999#0" />
+            <element signature="e#3835#3941#0" />
+            <element signature="e#4045#4387#0" />
+            <element signature="e#4432#4502#0" />
+            <element signature="e#4601#7731#0" />
+            <element signature="e#5050#5080#0" />
+            <element signature="e#5405#5772#0" />
+            <element signature="e#5438#5550#0" />
+            <element signature="e#5486#5550#0" />
+            <element signature="e#5585#5772#0" />
+            <element signature="e#5677#5772#0" />
+            <element signature="e#5996#7091#0" />
+            <element signature="e#6052#7091#0" />
+            <element signature="e#6184#6327#0" />
+            <element signature="e#6370#6758#0" />
+            <element signature="e#6495#6606#0" />
+            <element signature="e#6823#7091#0" />
+            <element signature="e#7119#7703#0" />
+            <element signature="e#7171#7703#0" />
+            <element signature="e#7441#7703#0" />
+            <element signature="e#7765#7843#0" />
+            <element signature="e#7877#8588#0" />
+            <element signature="e#8211#8387#0" />
+            <element signature="e#8274#8387#0" />
+            <element signature="e#8414#8570#0" />
+            <element signature="e#8470#8570#0" />
+            <element signature="e#8623#8982#0" />
+            <element signature="e#9022#10370#0" />
+            <element signature="e#9068#9194#0" />
+            <element signature="e#9246#9607#0" />
+            <element signature="e#9333#9485#0" />
+            <element signature="e#9512#9607#0" />
+            <element signature="e#9657#10009#0" />
+            <element signature="e#9742#9890#0" />
+            <element signature="e#9917#10009#0" />
+            <element signature="e#10114#10370#0" />
+            <element signature="e#10152#10277#0" />
+            <element signature="e#10403#10842#0" />
+            <element signature="e#11127#13145#0" />
+            <element signature="e#11630#12173#0" />
+            <element signature="e#11770#12173#0" />
+            <element signature="e#12010#12173#0" />
+            <element signature="e#12220#12504#0" />
+            <element signature="e#12272#12504#0" />
+            <element signature="e#12510#12535#0" />
+            <element signature="e#12659#13122#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/800572053/41203095/torch/utils/data/_utils/worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/batchgenerators/utilities/file_and_folder_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/cuda/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilites/softmax_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="105" selection-start-line="12" selection-start-column="105" selection-end-line="12" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference/predict_sample.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilites/tensor_utilites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#75#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/spliter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#74#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference/visulize_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="187" column="45" lean-forward="true" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#326#445#0" />
+            <element signature="e#599#1114#0" />
+            <element signature="e#599#640#0" />
+            <element signature="e#895#957#0" />
+            <element signature="e#1276#2374#0" />
+            <element signature="e#1271#1304#0" />
+            <element signature="e#2459#4090#0" />
+            <element signature="e#4030#4498#0" />
+            <element signature="e#3893#4042#0" />
+            <element signature="e#4173#5470#0" />
+            <element signature="e#4842#4904#0" />
+            <element signature="e#5947#6936#0" />
+            <element signature="e#6432#6547#0" />
+            <element signature="e#6598#6863#0" />
+            <element signature="e#6999#7165#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/GALANet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#87#0" expanded="true" />
+            <element signature="e#2069#2463#0" />
+            <element signature="e#2165#2331#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/Unet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="52" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/APLSNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding>
+            <element signature="e#75#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/utils/data/_utils/worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="492" selection-start-line="492" selection-end-line="492" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="2544" selection-start-line="2544" selection-end-line="2544" />
+          <folding>
+            <element signature="e#105723#107974#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch/lib/python3.6/site-packages/SimpleITK/SimpleITK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="21601" column="42" lean-forward="true" selection-start-line="21601" selection-start-column="42" selection-end-line="21601" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/cropper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="57" column="54" lean-forward="true" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#427#514#0" />
+            <element signature="e#649#657#0" />
+            <element signature="e#2135#2172#0" />
+            <element signature="e#3010#4038#0" />
+            <element signature="e#3161#3265#0" />
+            <element signature="e#3562#3952#0" />
+            <element signature="e#3615#3750#0" />
+            <element signature="e#3816#3952#0" />
+            <element signature="e#4043#4078#0" />
+            <element signature="e#4181#4370#0" />
+            <element signature="e#4422#4876#0" />
+            <element signature="e#4487#4571#0" />
+            <element signature="e#4648#4846#0" />
+            <element signature="e#4719#4805#0" />
+            <element signature="e#4971#5650#0" />
+            <element signature="e#5736#5933#0" />
+            <element signature="e#5973#5999#0" />
+            <element signature="e#6075#6897#0" />
+            <element signature="e#6092#6754#0" />
+            <element signature="e#6346#6754#0" />
+            <element signature="e#6798#6897#0" />
+            <element signature="e#6955#7102#0" />
+            <element signature="e#7172#7292#0" />
+            <element signature="e#7378#8209#0" />
+            <element signature="e#8276#9312#0" />
+            <element signature="e#9060#9188#0" />
+            <element signature="e#9394#10081#0" />
+            <element signature="e#9607#9685#0" />
+            <element signature="e#9777#9897#0" />
+            <element signature="e#11575#12385#0" />
+            <element signature="e#12002#12307#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#75#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/main_run_preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#84#0" expanded="true" />
+            <element signature="e#369#389#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/checkpoint_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#150#159#0" expanded="true" />
+            <element signature="e#701#1971#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilites/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+          <folding>
+            <element signature="e#75#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#87#0" expanded="true" />
+            <element signature="e#334#853#0" />
+            <element signature="e#396#409#0" />
+            <element signature="e#903#1055#0" />
+            <element signature="e#946#1055#0" />
+            <element signature="e#1124#2186#0" />
+            <element signature="e#3633#3756#1" />
+            <element signature="e#4038#4937#0" />
+            <element signature="e#4133#4526#0" />
+            <element signature="e#4575#4937#0" />
+            <element signature="e#4575#4698#1" />
+            <element signature="e#4972#6218#0" />
+            <element signature="e#5066#5426#0" />
+            <element signature="e#5475#6218#0" />
+            <element signature="e#6263#7458#0" />
+            <element signature="e#6348#6633#0" />
+            <element signature="e#6682#7458#0" />
+            <element signature="e#6982#7155#0" />
+            <element signature="e#7500#8277#0" />
+            <element signature="e#7603#7945#0" />
+            <element signature="e#7998#8277#0" />
+            <element signature="e#8316#8833#0" />
+            <element signature="e#8316#8365#1" />
+            <element signature="e#8436#8528#0" />
+            <element signature="e#8574#8833#0" />
+            <element signature="e#8919#10288#0" />
+            <element signature="e#9559#9853#0" />
+            <element signature="e#10318#12794#0" />
+            <element signature="e#10380#10710#0" />
+            <element signature="e#10762#10811#0" />
+            <element signature="e#10861#10908#0" />
+            <element signature="e#10940#11192#0" />
+            <element signature="e#11226#12139#0" />
+            <element signature="e#12176#12360#0" />
+            <element signature="e#12239#12309#0" />
+            <element signature="e#12273#12309#0" />
+            <element signature="e#12395#12468#0" />
+            <element signature="e#12508#12794#0" />
+            <element signature="e#12622#12691#0" />
+            <element signature="e#12655#12691#0" />
+            <element signature="e#12903#13382#0" />
+            <element signature="e#13243#13334#0" />
+            <element signature="e#13494#13962#0" />
+            <element signature="e#13832#13923#0" />
+            <element signature="e#14076#14514#0" />
+            <element signature="e#14389#14480#0" />
+            <element signature="e#14630#15067#0" />
+            <element signature="e#14942#15033#0" />
+            <element signature="e#15178#15294#0" />
+            <element signature="e#15410#15846#0" />
+            <element signature="e#15721#15812#0" />
+            <element signature="e#15933#16173#0" />
+            <element signature="e#16293#16620#0" />
+            <element signature="e#16744#16854#0" />
+            <element signature="e#16978#17415#0" />
+            <element signature="e#17290#17381#0" />
+            <element signature="e#17539#17649#0" />
+            <element signature="e#17772#17878#0" />
+            <element signature="e#18003#18111#0" />
+            <element signature="e#18241#18359#0" />
+            <element signature="e#18464#18649#0" />
+            <element signature="e#18754#18939#0" />
+            <element signature="e#19043#19228#0" />
+            <element signature="e#19332#19517#0" />
+            <element signature="e#19677#20218#0" />
+            <element signature="e#19969#20059#0" />
+            <element signature="e#20381#20924#0" />
+            <element signature="e#20673#20763#0" />
+            <element signature="e#21086#21628#0" />
+            <element signature="e#21378#21468#0" />
+            <element signature="e#21800#22343#0" />
+            <element signature="e#22092#22182#0" />
+            <element signature="e#22360#23232#0" />
+            <element signature="e#23266#23656#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/augment_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="263" column="52" selection-start-line="263" selection-start-column="52" selection-end-line="263" selection-end-column="52" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#93#0" expanded="true" />
+            <element signature="e#11869#15705#0" />
+            <element signature="e#24157#24208#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference/predict_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+          <folding>
+            <element signature="e#423#547#0" />
+            <element signature="e#583#655#0" />
+            <element signature="e#1248#1439#0" />
+            <element signature="e#1267#1418#0" />
+            <element signature="e#2800#9712#0" />
+            <element signature="e#2979#9627#0" />
+            <element signature="e#3415#3488#0" />
+            <element signature="e#3654#4759#0" />
+            <element signature="e#3855#4654#0" />
+            <element signature="e#4411#4509#0" />
+            <element signature="e#4689#4759#0" />
+            <element signature="e#5840#6767#0" />
+            <element signature="e#5896#6002#0" />
+            <element signature="e#6794#7051#0" />
+            <element signature="e#8999#9318#0" />
+            <element signature="e#9354#9627#0" />
+            <element signature="e#9913#12402#0" />
+            <element signature="e#9943#12377#0" />
+            <element signature="e#10307#10370#0" />
+            <element signature="e#10462#12308#0" />
+            <element signature="e#10506#12308#0" />
+            <element signature="e#10537#10633#0" />
+            <element signature="e#10705#10833#0" />
+            <element signature="e#10905#11033#0" />
+            <element signature="e#11128#11288#0" />
+            <element signature="e#11360#11488#0" />
+            <element signature="e#11583#11743#0" />
+            <element signature="e#11838#11998#0" />
+            <element signature="e#12116#12308#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/lungdataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#75#88#0" expanded="true" />
+            <element signature="e#678#3773#0" />
+            <element signature="e#2247#2547#0" />
+            <element signature="e#3294#3525#0" />
+            <element signature="e#3870#4039#0" />
+            <element signature="e#4088#4812#0" />
+            <element signature="e#4841#4893#0" />
+            <element signature="e#5091#6379#0" />
+            <element signature="e#5586#6007#0" />
+            <element signature="e#6413#7007#0" />
+            <element signature="e#8210#13665#0" />
+            <element signature="e#8719#8793#0" />
+            <element signature="e#9313#9610#0" />
+            <element signature="e#9313#9415#0" />
+            <element signature="e#9620#9721#0" />
+            <element signature="e#10267#10375#0" />
+            <element signature="e#10475#10636#0" />
+            <element signature="e#10663#11990#0" />
+            <element signature="e#11037#11223#0" />
+            <element signature="e#11436#11786#0" />
+            <element signature="e#11821#11990#0" />
+            <element signature="e#12725#13061#0" />
+            <element signature="e#13179#13521#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_architecture/PDVNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#75#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/733386760/1742114508/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="510" selection-start-line="510" selection-end-line="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilites/split_trainval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#75#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference/postprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#74#92#0" expanded="true" />
+            <element signature="e#478#1290#0" />
+            <element signature="e#1509#3700#0" />
+            <element signature="e#1509#1601#1" />
+            <element signature="e#1644#1749#0" />
+            <element signature="e#1901#3655#0" />
+            <element signature="e#1946#2124#0" />
+            <element signature="e#2563#3655#0" />
+            <element signature="e#2563#2667#0" />
+            <element signature="e#2920#3655#0" />
+            <element signature="e#3050#3655#0" />
+            <element signature="e#3362#3655#0" />
+            <element signature="e#4064#15397#0" />
+            <element signature="e#4121#4252#0" />
+            <element signature="e#4674#4810#0" />
+            <element signature="e#5810#7257#0" />
+            <element signature="e#5974#6288#0" />
+            <element signature="e#6488#7091#0" />
+            <element signature="e#6559#6804#0" />
+            <element signature="e#6605#6804#0" />
+            <element signature="e#6852#7091#0" />
+            <element signature="e#6900#7091#0" />
+            <element signature="e#7552#7954#0" />
+            <element signature="e#8261#8373#0" />
+            <element signature="e#8663#8881#0" />
+            <element signature="e#8943#9078#0" />
+            <element signature="e#9366#10051#0" />
+            <element signature="e#9366#9402#0" />
+            <element signature="e#9656#10051#0" />
+            <element signature="e#10070#10121#0" />
+            <element signature="e#10156#13668#0" />
+            <element signature="e#10156#10271#0" />
+            <element signature="e#10511#11886#0" />
+            <element signature="e#10622#10835#0" />
+            <element signature="e#11059#11710#0" />
+            <element signature="e#11138#11399#0" />
+            <element signature="e#11188#11399#0" />
+            <element signature="e#11455#11710#0" />
+            <element signature="e#11507#11710#0" />
+            <element signature="e#12073#12369#0" />
+            <element signature="e#13006#13668#0" />
+            <element signature="e#13330#13668#0" />
+            <element signature="e#14289#14778#0" />
+            <element signature="e#14549#14671#0" />
+            <element signature="e#14550#14669#0" />
+            <element signature="e#14706#14777#0" />
+            <element signature="e#15259#15338#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="392" column="28" lean-forward="true" selection-start-line="392" selection-start-column="28" selection-end-line="392" selection-end-column="28" />
+          <folding>
+            <element signature="e#24#73#1" />
+            <element signature="e#1214#2416#0" />
+            <element signature="e#1224#1418#0" />
+            <element signature="e#1440#1555#0" />
+            <element signature="e#1575#1736#0" />
+            <element signature="e#1758#1884#0" />
+            <element signature="e#1906#2047#0" />
+            <element signature="e#2069#2221#0" />
+            <element signature="e#2244#2415#0" />
+            <element signature="e#2559#5292#0" />
+            <element signature="e#2699#4196#0" />
+            <element signature="e#2748#4196#0" />
+            <element signature="e#2927#3026#0" />
+            <element signature="e#3576#3805#0" />
+            <element signature="e#3672#3800#0" />
+            <element signature="e#4372#4515#0" />
+            <element signature="e#4575#5062#0" />
+            <element signature="e#5085#5179#0" />
+            <element signature="e#5381#7425#0" />
+            <element signature="e#5471#7351#0" />
+            <element signature="e#5963#6057#0" />
+            <element signature="e#6717#7116#0" />
+            <element signature="e#6823#6941#0" />
+            <element signature="e#8057#12438#0" />
+            <element signature="e#8420#9105#0" />
+            <element signature="e#9472#11302#0" />
+            <element signature="e#9790#11183#0" />
+            <element signature="e#10704#10837#0" />
+            <element signature="e#10870#11069#0" />
+            <element signature="e#12134#12183#0" />
+            <element signature="e#12659#12794#0" />
+            <element signature="e#12977#13003#0" />
+            <element signature="e#15371#15503#0" />
+            <element signature="e#15923#16030#0" />
+            <element signature="e#16175#16488#0" />
+            <element signature="e#16519#16831#0" />
+            <element signature="e#16867#17177#0" />
+            <element signature="e#17213#17457#0" />
+            <element signature="e#16810#16990#0" />
+            <element signature="e#17009#17191#0" />
+            <element signature="e#18200#18251#0" />
+            <element signature="e#18400#19255#0" />
+            <element signature="e#18408#19195#0" />
+            <element signature="e#19364#21004#0" />
+            <element signature="e#19445#19629#0" />
+            <element signature="e#19702#20899#0" />
+            <element signature="e#20514#20668#0" />
+            <element signature="e#20716#20899#0" />
+            <element signature="e#22313#22397#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

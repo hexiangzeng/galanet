@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://mzs@10.214.223.235:22/data0/mzs/.conda/envs/zhx_torch/bin/python" />
+      </list>
+    </list>
+  </component>
+</project>
